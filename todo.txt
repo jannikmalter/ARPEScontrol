@@ -1,0 +1,4 @@
+eval e-
+keep data in memory
+eval & display data in memory
+save data according to format

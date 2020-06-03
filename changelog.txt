@@ -1,0 +1,7 @@
+2017_01_03
+
+- new version: 1.3 based on 1.2.1 dev LR
+- run number editable. overwrites old run number file on change.
+- added watt pilot control loop
+- added watt pilot scan option
+- added save and clear button for waypoint list
