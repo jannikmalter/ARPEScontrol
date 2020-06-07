@@ -417,6 +417,7 @@
 		<Item Name="Newport ESP301.lvlib" Type="Library" URL="../subvi/Newport ESP301/Newport ESP301.lvlib"/>
 		<Item Name="ProdigyRemoteControl.lvlib" Type="Library" URL="../subvi/ProdigyRemoteControlLib/ProdigyRemoteControl.lvlib"/>
 		<Item Name="specs_prodigy.vi" Type="VI" URL="../../../aaaWorkInProgress/ARPEScontrol/specs_prodigy.vi"/>
+		<Item Name="specs_test.vi" Type="VI" URL="../specs_test.vi"/>
 		<Item Name="ValveControl_v1.0.vi" Type="VI" URL="../ValveControl_v1.0.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
