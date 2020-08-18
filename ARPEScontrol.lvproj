@@ -125,29 +125,7 @@
 			<Item Name="RestoreDevice.vi" Type="VI" URL="../subvi/IC/RestoreDevice.vi"/>
 		</Item>
 		<Item Name="main" Type="Folder">
-			<Item Name="main 0.1.vi" Type="VI" URL="../main/main 0.1.vi"/>
-			<Item Name="main 0.2.vi" Type="VI" URL="../main/main 0.2.vi"/>
-			<Item Name="main 0.3.vi" Type="VI" URL="../main/main 0.3.vi"/>
-			<Item Name="main 0.4.vi" Type="VI" URL="../main/main 0.4.vi"/>
-			<Item Name="main 0.5.vi" Type="VI" URL="../main/main 0.5.vi"/>
-			<Item Name="main 0.6.vi" Type="VI" URL="../main/main 0.6.vi"/>
-			<Item Name="main 0.8.vi" Type="VI" URL="../main/main 0.8.vi"/>
-			<Item Name="main 0.9.0.vi" Type="VI" URL="../main/main 0.9.0.vi"/>
-			<Item Name="main 0.9.1.vi" Type="VI" URL="../main/main 0.9.1.vi"/>
-			<Item Name="main 0.9.2.vi" Type="VI" URL="../main/main 0.9.2.vi"/>
-			<Item Name="main 0.9.3.testing.vi" Type="VI" URL="../main/main 0.9.3.testing.vi"/>
-			<Item Name="main 0.9.4.testing.vi" Type="VI" URL="../main/main 0.9.4.testing.vi"/>
-			<Item Name="main 0.9.5.testing.vi" Type="VI" URL="../main/main 0.9.5.testing.vi"/>
-			<Item Name="main 0.9.6.testing.vi" Type="VI" URL="../main/main 0.9.6.testing.vi"/>
-			<Item Name="main 1.0.vi" Type="VI" URL="../main/main 1.0.vi"/>
-			<Item Name="main 1.1 stable.vi" Type="VI" URL="../main/main 1.1 stable.vi"/>
-			<Item Name="main 1.2 dev.vi" Type="VI" URL="../main/main 1.2 dev.vi"/>
-			<Item Name="main 1.3.vi" Type="VI" URL="../main/main 1.3.vi"/>
-			<Item Name="main 1.11 stable LR.vi" Type="VI" URL="../main/main 1.11 stable LR.vi"/>
-			<Item Name="main 1.12 stable LR.vi" Type="VI" URL="../main/main 1.12 stable LR.vi"/>
-			<Item Name="main 1.13 stable LR.vi" Type="VI" URL="../main/main 1.13 stable LR.vi"/>
-			<Item Name="main 1.15 stable LR.vi" Type="VI" URL="../main/main 1.15 stable LR.vi"/>
-			<Item Name="main 1.17b beta.vi" Type="VI" URL="../main/main 1.17b beta.vi"/>
+			<Item Name="main 1.18.vi" Type="VI" URL="../main/main 1.18.vi"/>
 		</Item>
 		<Item Name="PCO" Type="Folder">
 			<Item Name="APIManagement" Type="Folder">
@@ -416,7 +394,7 @@
 		<Item Name="ICtest.vi" Type="VI" URL="../ICtest.vi"/>
 		<Item Name="Newport ESP301.lvlib" Type="Library" URL="../subvi/Newport ESP301/Newport ESP301.lvlib"/>
 		<Item Name="ProdigyRemoteControl.lvlib" Type="Library" URL="../subvi/ProdigyRemoteControlLib/ProdigyRemoteControl.lvlib"/>
-		<Item Name="specs_prodigy.vi" Type="VI" URL="../../../aaaWorkInProgress/ARPEScontrol/specs_prodigy.vi"/>
+		<Item Name="specs_prodigy.vi" Type="VI" URL="../specs_prodigy.vi"/>
 		<Item Name="specs_test.vi" Type="VI" URL="../specs_test.vi"/>
 		<Item Name="ValveControl_v1.0.vi" Type="VI" URL="../ValveControl_v1.0.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -428,7 +406,6 @@
 				<Item Name="Put_DBL_PV.vi" Type="VI" URL="/&lt;userlib&gt;/caLab/Private/Put_DBL_PV.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -659,7 +636,7 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ GetImagePixelPtr" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImagePixelPtr"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
@@ -691,6 +668,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -716,8 +694,6 @@
 			</Item>
 			<Item Name="IC LabVIEW Extension 2_x64.dll" Type="Document" URL="../subvi/IC/IC LabVIEW Extension 2_x64.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="move_abosute.vi" Type="VI" URL="../subvi/Watt Pilot/move_abosute.vi"/>
-			<Item Name="move_relative.vi" Type="VI" URL="../subvi/Watt Pilot/move_relative.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -728,19 +704,10 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="pcolabview.dll" Type="Document" URL="../subvi/pcolabview.dll"/>
-			<Item Name="pcolabview.dll" Type="Document" URL="../subvi/PCO/32bit/pcolabview.dll"/>
-			<Item Name="power2deg_steps2.vi" Type="VI" URL="../subvi/Watt Pilot/power2deg_steps2.vi"/>
-			<Item Name="read_position.vi" Type="VI" URL="../subvi/Watt Pilot/read_position.vi"/>
 			<Item Name="SC2_Cam.dll" Type="Document" URL="../subvi/PCO/32bit/SC2_Cam.dll"/>
 			<Item Name="sen_cam.dll" Type="Document" URL="sen_cam.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="sp_manip_abort.vi" Type="VI" URL="/../../../../data/documents/Fritz-Haber-Institut/ARPES/ARPEScontrol/subvi/sp_manip.llb/sp_manip_abort.vi"/>
-			<Item Name="sp_manip_connect.vi" Type="VI" URL="/../../../../data/documents/Fritz-Haber-Institut/ARPES/ARPEScontrol/subvi/sp_manip.llb/sp_manip_connect.vi"/>
-			<Item Name="sp_manip_disconnect.vi" Type="VI" URL="/../../../../data/documents/Fritz-Haber-Institut/ARPES/ARPEScontrol/subvi/sp_manip.llb/sp_manip_disconnect.vi"/>
-			<Item Name="sp_manip_get_axis_status.vi" Type="VI" URL="/../../../../data/documents/Fritz-Haber-Institut/ARPES/ARPEScontrol/subvi/sp_manip.llb/sp_manip_get_axis_status.vi"/>
-			<Item Name="sp_manip_start_move.vi" Type="VI" URL="/../../../../data/documents/Fritz-Haber-Institut/ARPES/ARPEScontrol/subvi/sp_manip.llb/sp_manip_start_move.vi"/>
-			<Item Name="Steps2deg_power.vi" Type="VI" URL="../subvi/Watt Pilot/Steps2deg_power.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
